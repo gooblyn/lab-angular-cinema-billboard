@@ -9,6 +9,7 @@ import {routes} from './routes';
 import { AppComponent } from './app.component';
 import { MyHomeComponentComponent } from './my-home-component/my-home-component.component';
 import { MyMovieComponentComponent } from './my-movie-component/my-movie-component.component';
+import { CinemaService } from './services/cinema.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { MyMovieComponentComponent } from './my-movie-component/my-movie-compone
     HttpModule,
     RouterModule.forRoot(routes)  //  <!-- "routes" is the array defined above
   ],
-  providers: [],
+  providers: [CinemaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,3 +1,38 @@
-<p>
-  my-movie-component works!
-</p>
+<h3>{{movie.room}} - {{movie.title}}   </h3>
+<div class="movie">
+  <div class="image">
+    <img src="{{movie.poster}}" alt="peli-poster" width="400">
+  </div>
+  <div class="info">
+    <table>
+      <tr>
+       <td> Genres </td>
+       <td> {{ movie.genres }} </td>
+      </tr>
+      <tr>
+       <td> Year </td>
+       <td> {{ movie.year }} </td>
+      </tr>
+      <tr>
+       <td> Director </td>
+       <td> {{ movie.director }} </td>
+      </tr>
+      <tr>
+       <td> Actors </td>
+       <td> {{ movie.actors }} </td>
+      </tr>
+      <tr>
+       <td> Hours </td>
+       <td> {{ movie.hours }} </td>
+      </tr>
+      <tr>
+       <td> Synopsis </td>
+       <td> {{ movie.synopsis }} </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a [routerLink]="['/']"> Back to list </a></td>
+      </tr>
+    </table>
+  </div>
+</div>

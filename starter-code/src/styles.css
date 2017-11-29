@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  font-family: "Arial";
+  background-image: url('https://estaticos.muyinteresante.es/uploads/images/article/58109fd25cafe86bf88b456e/frases-cine_0.jpg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}

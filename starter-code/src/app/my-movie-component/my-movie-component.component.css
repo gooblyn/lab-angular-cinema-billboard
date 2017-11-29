@@ -1,0 +1,42 @@
+h3 {
+  background-color: white;
+  height: 40px;
+  color: grey;
+  width: 50%;
+  border-radius: 20px;
+  margin-left: 25%;
+  padding-top: 15px;
+}
+
+.movie {
+  display: flex;
+  width: 80%;
+}
+
+.image {
+  float: left;
+  width: 50%;
+}
+
+.info {
+  float: left;
+  width: 50%;
+  margin-left: 40px;
+  margin-top: 50px;
+  text-align: left;
+  line-height: 30px;
+}
+.link{
+  background-color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  margin-left: 600px;
+}
+
+table{
+  background-color: white;
+  color: grey;
+}
